@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(26, 45, 119, 0.53)),url("D:\Cdac\Project\ResortApp\University App\FrontEnd\uni-app\public\images\background.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe{
+    width: 100%;
+}
+.col-xl-6{
+    align-items: center;
+    margin-bottom: 40px;
+}
+.col-xl-6 .lable{
+    color: red;
+    margin-bottom: 0;
+}
+.col-xl-6 p{
+    padding: 0;
+    margin-bottom: 30px;
+}
+.col-xl-6 h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+.conForm input, .conForm textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
